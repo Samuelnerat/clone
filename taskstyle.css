@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.logo img{
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 25%;
+    margin-bottom: 30px;
+}
+.general{
+    background:#12252b;
+    height:100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sidebar{  
+    position:fixed;
+    left:0;
+    width: 250px;
+    height: 100%;
+    background: #091316;
+}
+.sidebar ul a{
+    display: block;
+    height:100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color:white;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+ul li:hover a{
+    background-color:#12252b;
+} 
+.wrapper{
+    margin-left: 250px;
+    margin-top: 40px;
+}
+.form{
+    width:100%; 
+    position:relative;
+    margin-left: 20px;
+    padding-left: 60px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-top: 40px;
+    background-color: #091316 ;
+    color:white;
+    font-size: large;
+    border-radius: 5px;
+}
+.form input{
+    width:80%; 
+    height:40px;
+    padding:7px;
+    margin-top: 15px;
+    margin-bottom:40px;
+    padding-left: 30px;
+    background-color:#12252b;
+}
+.button{
+    background-color:rgb(58, 156, 58);
+    height:40px;
+    width:50%;
+    border-radius: 5px;
+    color: white;
+    margin-left: 100px;
+}
+.text h1{
+    color: white;
+    padding-left: 25px;
+    font-weight: bold;
+    font-size: 30px;
+}
